@@ -1,10 +1,18 @@
-h1{
-    text-align: center;
-    margin-bottom: 40px;
-    font-family: 'Love Seed'
+body {
+    background-image: url(backg.jpg);
 }
 
-@font-face{
-    font-family: "Love Seed"
-    src: url(Love Seed.ttf) format('truetype');
+@font-face {
+    font-family: love seed;
+    src(love.ttf);
+}
+
+font {
+    color: #597d37;
+    font-size:50;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: love seed;
 }
