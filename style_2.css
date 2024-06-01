@@ -1,0 +1,12 @@
+body {
+    background-image: url(images/era_1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-family: love seed;
+    text-align: center;
+    font-size: 120;
+    color: white;
+}
