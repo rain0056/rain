@@ -1,21 +1,23 @@
 body {
-    background-image: url(images/backg.jpg);
+    background-image: url(assets/images/backg.jpg);
     background-size: ;
     background-position: ;
 }
 
 @font-face {
-    font-family: love seed;
-    src: "plugins/love.ttf";
+    font-family: love-seed;
+    src: url(assets/fonts/love-seed.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
 }
 
 font {
     color: #597d37;
     font-size:50;
-    font-family: sans-serif;
+    font-family: love-seed;
 }
 
 h1 {
-    font-family: love seed;
+    font-family: love-seed;
     text-align: center;
 }
