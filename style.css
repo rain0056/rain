@@ -1,23 +1,68 @@
 body {
     background-image: url(assets/images/backg.jpg);
+    background: #cfe3be;
     background-size: ;
-    background-position: ;
+    background-position: center;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 @font-face {
     font-family: love-seed;
     src: url(assets/fonts/love-seed.ttf) format(truetype);
     font-weight: normal;
+    font-style: normal; 
+}
+    
+@font-face {
+    font-family: sunny-spells;
+    src: url(assets/fonts/sunny-spells.otf) format(opentype);
+    font-weight: normal;
     font-style: normal;
+}
+
+@font-face {
+    font-family: romantica;
+    src: url(assets/fonts/romantica.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: bold-lining;
+    src: url(assets/fonts/bold-lining.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    color: #597d37;
+    font-size:100;
+    font-family: love-seed, sans-serif;
+    text-align: center;
 }
 
 font {
     color: #597d37;
     font-size:50;
-    font-family: love-seed;
+    font-family: romantica, sans-serif;
 }
 
-h1 {
-    font-family: love-seed;
-    text-align: center;
+.img_1 {
+    position: relative;
+    left: 350px;
+}
+
+.img_2 {
+    position: relative;
+    left: 100px;
+    top: 220px
+}
+
+.num {
+    font-family: bold-lining;
+    font-style: ;
+    font-size:100;
+    top: 500px;
 }
