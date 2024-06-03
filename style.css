@@ -1,4 +1,5 @@
 body {
+    background-image: url(assets/images/backg.jpg);
     background: #cfe3be;
     background-size: ;
     background-position: center;
@@ -44,8 +45,56 @@ h1 {
 
 font {
     color: #597d37;
-    font-size:50;
+    font-size:50px;
     font-family: romantica, sans-serif;
+}
+
+.num {
+    font-family: bold-lining;
+    font-size:50px;
+    top: 500px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1920px;
+    margin: auto;
+    border: 1px solid  #cfe3be;
+    padding: 0px;
+}
+
+.text_left {
+    flex: 3;
+    margin-right: 0px;
+}
+
+.image_right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.text_right {
+    flex: 5;
+    text-align: right;
+}
+
+
+.image_left {
+    flex: 2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 0px;
+}
+
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; 
 }
 
 .img_1 {
@@ -59,9 +108,40 @@ font {
     top: 220px
 }
 
-.num {
-    font-family: bold-lining;
-    font-style: ;
-    font-size:100;
-    top: 500px;
+.img_left {
+    position: relative;
+    left: 2000px;
+  
 }
+
+
+
+
+
+
+
+.img_right {
+    position: relative;
+    left:x
+  
+}
+
+.img_3 {
+
+}
+
+
+.img_3 {
+
+}
+
+
+.img_3 {
+
+}
+
+
+.img_3 {
+
+}
+
