@@ -1,7 +1,7 @@
 body {
     background-image: url(assets/images/backg1.jpg), url(assets/images/backg2.jpg);
     background-repeat: no-repeat, no-repeat;
-    background: #cfe3be;
+    background: #d4e2be;
     background-size: ;
     background-position: top, center;
     margin-top: 50px;
@@ -82,7 +82,7 @@ font {
     width: 100%;
     max-width: 1920px;
     margin: auto;
-    border: 1px solid  #cfe3be;
+    border: 1px solid  #d4e2be;
     padding: 0px;
 }
 
@@ -147,22 +147,20 @@ font {
 .img_d {
     position: relative;
     left: 100px;
-    top:50px;
+    top:10px;
 }
 
 .img_e {
     position: relative;
     left: 5px;
-    bottom: 170px;
+    bottom: 210px;
 }
 
 .img_f {
     position: relative;
     left: 20px;
-    top: 50px;
+    top: 20px;
 }
-
-
 
 .img_left {
     position: relative;
@@ -206,6 +204,12 @@ font {
 
 }
 
+.love {
+    color: #597d37;
+    font-size:75px;
+    font-family: love-seed, sans-serif;
+    text-align: left
+}
 
 
 
