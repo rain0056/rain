@@ -147,23 +147,43 @@ font {
 
 .dc_5 {
     position: relative;
-    flex-direction: row;
-    display: flex;
-    flex: 0.35;
+    left: 120px;
+    top: 120px
 }
 
 .dc_6 {
     position: relative;
-    flex-direction: row;
-    display: flex;
-    flex: 0.35;
+    left: 70px;
+    bottom: 40px
 }
 
 .dc_7 {
     position: relative;
-    flex-direction: row;
-    display: flex;
- 
+    left: 10px;
+    top: 90px; 
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+.dc_6a {
+    position: relative;
+    left: 60px;
+    bottom: 40px
+}
+
+.dc_6b {
+    position: relative;
+    left: 0px;
+    top: 150px
+}
