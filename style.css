@@ -111,7 +111,6 @@ font {
     margin-right: 0px;
 }
 
-
 .image img {
     max-width: 100%;
     height: auto;
@@ -120,19 +119,54 @@ font {
 
 .img_1 {
     position: relative;
-    left: 350px;
+    left: 320px;
 }
 
 .img_2 {
     position: relative;
-    left: 100px;
+    left: 120px;
     top: 220px
 }
+
+.img_a {
+    position: relative;
+    left: 260px;
+}
+
+.img_b {
+    position: relative;
+    left: 270px;
+    top:50px;
+}
+
+.img_c {
+    position: relative;
+    left: 90px;
+}
+
+.img_d {
+    position: relative;
+    left: 100px;
+    top:50px;
+}
+
+.img_e {
+    position: relative;
+    left: 5px;
+    bottom: 170px;
+}
+
+.img_f {
+    position: relative;
+    left: 20px;
+    top: 50px;
+}
+
+
 
 .img_left {
     position: relative;
     left: 2000px;
-  
 }
 
 .img_right {
@@ -145,6 +179,10 @@ font {
     flex-direction: row;
   }
 
+.july_1 {
+    background-position: center;
+}
+
 .dc_5 {
     position: relative;
     left: 120px;
@@ -153,7 +191,6 @@ font {
 
 .dc_6 {
     position: relative;
-    left: 70px;
     bottom: 40px
 }
 
